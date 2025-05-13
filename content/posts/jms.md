@@ -10,4 +10,4 @@ categories: ["自己"]
 
 我购买的套餐是：Just My Socks LA 500
 
-欢迎大家使用我的推广链接：https://justmysocks.net/members/aff.php?aff=11739
+欢迎大家使用我的推广链接：https://justmysocks6.net/members/aff.php?aff=11739
