@@ -1,4 +1,4 @@
-baseURL = 'https://blog.zhuochao.wang/'
+baseURL = 'https://zhuochao.wang/'
 languageCode = 'en-us'
 title = '卓超的碎碎念'
 theme = 'xmin'
@@ -37,8 +37,8 @@ url = "index.xml"
 
 [params]
 description = "A website built through Hugo and blogdown."
-footer = "&copy; [卓超](https://blog.zhuochao.wang) 2017 -- {Year}"
-#footer = "&copy; [卓超](https://blog.zhuochao.wang) 2017 -- {Year} | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+footer = "&copy; [卓超](https://zhuochao.wang) 2017 -- {Year}"
+#footer = "&copy; [卓超](https://zhuochao.wang) 2017 -- {Year} | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
 
 [markup.highlight]
 codeFences = false
