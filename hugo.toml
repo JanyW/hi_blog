@@ -1,0 +1,53 @@
+baseURL = 'https://blog.zhuochao.wang/'
+languageCode = 'en-us'
+title = '卓超的碎碎念'
+theme = 'xmin'
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+note = "/note/:year/:month/:day/:slug/"
+post = "/post/:year/:month/:day/:slug/"
+
+[[menu.main]]
+name = "Home"
+url = ""
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[menu.main]]
+name = "Categories"
+url = "categories/"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 4
+
+[[menu.main]]
+name = "Subscribe"
+url = "index.xml"
+
+[params]
+description = "A website built through Hugo and blogdown."
+footer = "&copy; [卓超](https://blog.zhuochao.wang) 2017 -- {Year}"
+#footer = "&copy; [卓超](https://blog.zhuochao.wang) 2017 -- {Year} | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+
+[markup.highlight]
+codeFences = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.goldmark.extensions.passthrough]
+enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+  block = [ [ "\\[", "\\]" ], [ "$$", "$$" ] ]
+  inline = [ [ "\\(", "\\)" ] ]
